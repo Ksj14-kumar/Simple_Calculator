@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="button-group">
+            <input type="text" placeholder="0" id="input">
+            <button class="percentage" onclick="display('%')">%</button>
+            <button class="ce" onclick="ceil_value()">CE</button>
+            <button class="C" onclick="clear1()">Cl</button>
+            <button class="clear" onclick="del()"> <i class="fas fa-arrow-left" onclick="clear()"></i></button>
+            <button class="floor" onclick="floor()">1/x</button>
+            <button class="power" onclick="power()">x^2</button>
+            <button class="root" onclick="root()"><i class="fas fa-square-root-alt"></i></button>
+
+            <button class="btn1 divide" onclick="display('/')"><i class="fas fa-divide"></i></button>
+            <button type="button" class="btn7 seven" onclick="display('7')">7</button>
+            <button class="btn2 eight" onclick="display('8')">8</button>
+            <button class="btn3 nine" onclick="display('9')">9</button>
+            <button class="btn8 times " onclick="display('*')"><i class="fas fa-times"></i></button>
+
+            <button class="btn5 three" onclick="display('3')">3</button>
+            <button class="btn6 four" onclick="display('4')">4</button>
+            <button class="btn7 five" onclick="display('5')">5</button>
+            <button class="btn12 plus" onclick="display('+')"><i class="fa fa-plus" aria-hidden="true"></i></button>
+
+            <button class="btn9 one" onclick="display('1')">1</button>
+            <button class="btn10 two" onclick="display('2')">2</button>
+            <button class="btn11 three" onclick="display('3')">3</button>
+            <button class="btn13 minus" onclick="display('-')"><i class="fas fa-minus"></i></button>
+            <button class="btn14 dot dot1" onclick="display('.')">&middot;</button>
+            <button class="btn15 zero" onclick="display('0')">0</button>
+            <button class="btn16 equal" onclick="calculate()"><i class="fas fa-equals "></i></button>
+
+              
+
+
+        </div>
+    </div>
+    <script src="index.js">
+      
+
+
+
+        </script>
+</body>
+</html>
